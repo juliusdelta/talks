@@ -1637,4 +1637,27 @@ function helloWorld() {
 
 ---
 
+### It takes javascript from this:
+```javascript
+  obj?.nested?.property
+```
+
+---
+
+### To this!
+```javascript
+  if (obj && obj.nested && obj.nested.property) { 
+    return obj.age;
+  } else {
+    return null
+  }
+```
+
+---
+
+## Understanding Tooling for using Babel
+- Uses a parser called Babylon
+- https://astexplorer.net
+
+---
 # Live Coding!
