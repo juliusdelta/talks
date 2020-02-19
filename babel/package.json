@@ -10,6 +10,7 @@
   "author": "JD",
   "license": "ISC",
   "devDependencies": {
+    "code-surfer": "^3.1.0",
     "mdx-deck": "^4.0.0"
   }
 }
